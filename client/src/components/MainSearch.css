@@ -1,0 +1,164 @@
+
+
+.search-bar-container{
+    padding-top: 5vh;
+    width: 40%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    min-width: 200px;
+  }
+
+.input-wrapper {
+    width:100%;
+    border-radius: 10px;
+    border: 2px solid #89C2D9;
+    height: 2.5rem;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+input.input-main-search {
+    background-color: transparent;;
+    border:none;
+    height: 100%;
+    font-size: 1.25rem;
+    width:100%;
+    margin-left: 5px;
+
+}
+
+input.input-main-search:focus {
+    outline: none;
+}
+
+#search-icon {
+    color: #89C2D9;
+}
+
+
+
+.input-category {
+    margin-right: 5px; /* Add some spacing between checkboxes */
+}
+
+/* CATEGORY SELECTION PORTION */
+#category-section{
+    padding-top: 15px;
+   display:flex;
+   padding-bottom: 15px;
+}
+
+#category-section input{
+    display:flex;
+}
+
+#category-section label{
+    white-space: nowrap; 
+    padding-right: 15px;
+    padding-left: 3px;
+}
+
+
+/* CSS */
+#type-section button{
+margin-right: 10px;
+margin-left: 10px;
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+#type-section button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+#type-section button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+#type-section button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+#type-section button:focus {
+  outline: 1px transparent;
+}
+
+#type-section button:before {
+  display: none;
+}
+
+#type-section button:-webkit-details-marker {
+  display: none;
+}
+
+#type-section{
+    padding-bottom: 30px;;
+}
+
+
+
+
+
+/* CSS */
+#category-section button {
+    border-radius: 20px;
+  background-color: #89C2D9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 30px;
+  line-height: 30px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+#category-section button:hover {
+  box-shadow:  #2C7DA0 0 3px 8px;
+}
